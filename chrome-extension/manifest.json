@@ -1,0 +1,16 @@
+ {
+  "name": "xray",
+  "version": "1.0",
+  "description": "Bypass article paywalls.",
+  "manifest_version": 2,
+  "browser_action": {
+    "name": "xray",
+    "icons": ["icon.png"],
+    "default_icon": "icon.png"
+  },
+  "background": {
+      "persistent": true,
+      "scripts": [ "background.js" ]
+   },
+  "permissions": ["http://*/*", "https://*/*", "webRequest", "webRequestBlocking"]
+}
