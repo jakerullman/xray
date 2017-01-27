@@ -1,6 +1,6 @@
 {
   "name": "xray",
-  "version": "1.1",
+  "version": "1.2",
   "description": "Bypass article paywalls.",
   "manifest_version": 2,
   "browser_action": {

@@ -5,7 +5,7 @@ function changeRefer(details) {
   
   for (var i = 0; i < details.requestHeaders.length; ++i) {
     if (details.requestHeaders[i].name === 'Referer') {
-      details.requestHeaders[i].value = 'http://www.google.com/';
+      details.requestHeaders[i].value = 'https://www.facebook.com/';
       break;
     }
   }
